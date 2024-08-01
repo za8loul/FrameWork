@@ -1,0 +1,203 @@
+/* START NAVBAR */
+.navbar {
+  --bs-navbar-active-color: white !important;
+  --bs-navbar-brand-color: white !important;
+  --bs-navbar-brand-hover-color: white !important;
+  --bs-navbar-color: white !important;
+  --bs-navbar-hover-color: white !important;
+  background-color: #2c3e50;
+}
+nav .navbar-brand {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+nav .nav-link {
+  font-size: 16px;
+  font-weight: 700;
+}
+.navbar-nav .nav-link.active {
+  color: white !important;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #1abc9c;
+  border-radius: 10px;
+}
+/* END NAVBAR */
+
+/* START PORTFOLIO */
+.port h1 {
+  font-size: 40px;
+  font-weight: 700 !important;
+  color: #2c3e50;
+  position: relative;
+}
+.port i {
+  color: #2c3e50;
+  position: relative;
+  z-index: 999;
+  background-color: white;
+  padding-inline: 10px;
+}
+.port h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #2c3e50;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+  z-index: -1;
+}
+.port-content .layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(41, 177, 151, 0.75);
+  display: none;
+  transition: all 0.5s;
+}
+.port-content .frame {
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.frame:hover .layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-lg-4 {
+  transition: all 0.5s;
+}
+.display {
+  background-color: rgba(80, 136, 215, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999999;
+  display: none;
+}
+.port-content .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(96, 152, 231, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* END PORTFOLIO */
+/* START CONTACT */
+.contact {
+  position: relative;
+}
+.contact h1 {
+  font-size: 40px;
+  font-weight: 700 !important;
+  color: #2c3e50;
+  position: relative;
+}
+.contact i {
+  color: #2c3e50;
+  position: relative;
+  z-index: 999;
+  background-color: white;
+  padding-inline: 10px;
+}
+.contact h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #2c3e50;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+  z-index: -1;
+}
+/* END CONTACT */
+/* START FOOTER */
+.footer-container {
+  background-color: #2c3e50;
+  color: white;
+}
+.copy {
+  background-color: #1a252f;
+}
+/* END FOOTER */
+/* START HOME */
+.home-content {
+  background-color: #1abc9c;
+}
+.home-content h1 {
+  font-size: 40px;
+  font-weight: 700 !important;
+  color: white;
+  position: relative;
+}
+.home-content i {
+  color: white;
+  position: relative;
+  z-index: 999;
+  background-color: #1abc9c;
+  padding-inline: 10px;
+}
+.home-content h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  z-index: 9;
+}
+/* END HOME */
+/* START ABOUT */
+.about-content {
+  background-color: #1abc9c;
+}
+.about-content h1 {
+  font-size: 40px;
+  font-weight: 700 !important;
+  color: white;
+  position: relative;
+}
+.about-content i {
+  color: white;
+  position: relative;
+  z-index: 9999;
+  background-color: #1abc9c;
+  padding-inline: 10px;
+}
+.about-content h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  z-index: 9999;
+}
+/* END ABOUT */
